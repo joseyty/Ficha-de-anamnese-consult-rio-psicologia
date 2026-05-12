@@ -26,7 +26,7 @@ input, select{
    
 }
 
-.linha1,.linha2,.linha3,.linha4,.linha5,.linha6,.linha7,.linha8,.linha9,.linha10{
+.linha1,.linha2,.linha3,.linha4,.linha5,.linha6,.linha7,.linha8,.linha9,.linha10,.linha11,.linha12{
     display: flex;
     gap: 20px;
     margin-bottom: 15px;
@@ -34,7 +34,7 @@ input, select{
     align-items: center;
     flex: 1;
 }
-.linha1,.linha2,.linha3,.linha4,.linha5,.linha6,.linha7,.linha8,.linha9,.linha10 div{
+.linha1,.linha2,.linha3,.linha4,.linha5,.linha6,.linha7,.linha8,.linha9,.linha10,.linha11,.linha12 div{
    display: flex;
     flex-direction: row;
     align-items: center;

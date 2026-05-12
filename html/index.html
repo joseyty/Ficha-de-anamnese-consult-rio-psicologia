@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Sociocono</h1>
+ <form action="" id="myForm">
+  <div class="form">
+<label  class="required" for="name">Name:</label>
+<input type="text" id="name" name="name">
+<br>
+<label  class="required" for="idade">Idade:</label>
+<input type="number" id="idade" name="idade">
+<br>
+<label  class="required" for="Gênero">Gênero:</label>
+<select id="Gênero" name="Gênero">
+  <option value="masculino">Masculino</option>
+  <option value="feminino">Feminino</option>
+  <option value="outro">Outro</option>
+</select>
+<br>
+<label  class="required" for="Estado civil">Estado Civil:</label>
+<select name="Estado civil" id="Estado civil">
+    <option value="Solteiro">Solteiro</option>
+    <option value="Casado">Casado</option>
+    <option value="Divorciado">Divorciado</option>
+    <option value="Viúvo">Viúvo</option>
+</select>
+<br>
+<label  class="required" for="Profissão">Profissão:</label>
+<input type="text" id="Profissão" name="Profissão">
+<br>
+<label  class="required" for="email">Email:</label>
+  <input type="email" id="email" name="email">
+  <br>
+  <label  class="required" for="Data">Data:</label>
+  <input type="date" id="Data" name="Data">
+  <br>
+  <label  class="required" for="Responsavel">Responsável:</label>
+     <input type="text" id="Responsavel" name="Responsavel">
+  <br>
+
+     <div id="mensagem"></div>
+
+   <br>
+  <button id="adicionarButton" onclick="adicionarButton()" type="button">Enviar</button>
+
+
+ </form>
+ </div>
+ <script src="../js/index.js"></script>
+</body>
+</html>

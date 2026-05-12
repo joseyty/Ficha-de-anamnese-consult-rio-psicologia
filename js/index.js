@@ -15,9 +15,11 @@ function adicionarButton(){
     let termos = document.getElementById("termos").checked;
     let historicoEmocional = document.getElementById("historicoEmocional").value;
     let habitos = document.getElementById("Habitos").value;
+    let estadoEmocional = document.getElementById("estadoEmocional").value;
+    let historico = document.getElementById("historico").value;
 
-    if(nome === "" || idade === "" || sexo === "" || email === "" || telefone === "" || endereco === "" || cpf === "" || rg === "" || profissao === "" || estadoCivil === "" || motivoConsulta === "" || historicoEmocional === "" || !termos){
-        let mensagem = "Por favor, preencha todos os campos e aceite os termos!";
+    if(nome === "" || idade === "" || sexo === "" || email === "" || telefone === "" || endereco === "" || cpf === "" || rg === "" || profissao === "" || estadoCivil === "" || motivoConsulta === "" || historicoEmocional === "" || estadoEmocional === "" || habitos === "" || historico === "" || !termos){
+        let mensagem = "Por favor, preencha os campos obrigatórios e aceite os termos!";
         document.getElementById("mensagem").textContent = mensagem;
         document.getElementById("mensagem").style.color = "red";
         return;

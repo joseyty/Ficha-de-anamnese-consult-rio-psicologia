@@ -22,16 +22,12 @@ input, select{
     border: none;
     border-bottom: 1px solid #ccc;
     outline: none;
-    background: transparent;
-   
+    background: transparent; 
 }
 
 .bloco1{
-    
-     width: 100%;
-      font-weight: bold;
 
-
+    font-weight: bold;
 }
 
 .linha1,.linha2,.linha3,.linha4,.linha5,.linha6,.linha7,.linha8,.linha9,.linha10,.linha11,.linha12{
@@ -50,7 +46,7 @@ input, select{
 }
 .form{
     max-width: 600px;
-     height: 900px;
+     height: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
@@ -87,4 +83,12 @@ h1{
     textarea{
         width: 230px;
         box-shadow: 0 0 5px #000000;
+    }
+
+ 
+
+
+    .bloco1 div{
+    display: flex;
+    flex-direction: column;
     }

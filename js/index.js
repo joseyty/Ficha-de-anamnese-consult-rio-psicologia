@@ -13,8 +13,10 @@ function adicionarButton(){
     let estadoCivil = document.getElementById("estadoCivil").value;
     let motivoConsulta = document.getElementById("motivoConsulta").value;
     let termos = document.getElementById("termos").checked;
+    let historicoEmocional = document.getElementById("historicoEmocional").value;
+    let habitos = document.getElementById("Habitos").value;
 
-    if(nome === "" || idade === "" || sexo === "" || email === "" || telefone === "" || endereco === "" || cpf === "" || rg === "" || profissao === "" || estadoCivil === "" || motivoConsulta === "" || !termos){
+    if(nome === "" || idade === "" || sexo === "" || email === "" || telefone === "" || endereco === "" || cpf === "" || rg === "" || profissao === "" || estadoCivil === "" || motivoConsulta === "" || historicoEmocional === "" || !termos){
         let mensagem = "Por favor, preencha todos os campos e aceite os termos!";
         document.getElementById("mensagem").textContent = mensagem;
         document.getElementById("mensagem").style.color = "red";

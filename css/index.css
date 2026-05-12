@@ -26,6 +26,14 @@ input, select{
    
 }
 
+.bloco1{
+    
+     width: 100%;
+      font-weight: bold;
+
+
+}
+
 .linha1,.linha2,.linha3,.linha4,.linha5,.linha6,.linha7,.linha8,.linha9,.linha10,.linha11,.linha12{
     display: flex;
     gap: 20px;
@@ -74,4 +82,9 @@ h1{
     text-align: center;
     color: #333333;
     
+    }
+
+    textarea{
+        width: 230px;
+        box-shadow: 0 0 5px #000000;
     }

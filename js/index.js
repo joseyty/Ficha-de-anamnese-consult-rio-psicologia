@@ -25,7 +25,7 @@ function adicionarButton(){
         return;
     }
        
-    let realizado = "Enviadocom sucesso!";
+    let realizado = "Enviado com sucesso!";
    document.getElementById("mensagem").textContent = realizado;
      document.getElementById("mensagem").style.color = "green";
 
